@@ -14,13 +14,17 @@
 
 ---
 
-```
-now      Blinq            leveraged trading on prediction markets
-before   Router Protocol  cross-chain routing, Bitcoin execution
-also     Dfyn Network     concentrated liquidity, on-chain limit orders
-```
+### Building
 
-**Building** · upgradeable contract suites, liquidation engines, ERC-4626 vaults, reorg-safe indexers
+Leveraged trading on prediction markets, at [Blinq](https://rahulbane.vercel.app).
+
+- **Contracts** · upgradeable suites behind UUPS proxies · money-waterfall settlement · EIP-712 quorum multisig
+- **Vaults** · ERC-4626 shares · donation protection · utilisation-capped borrowing · bad-debt socialisation
+- **Liquidation** · time-ramped Dutch auctions priced by single-use oracle quotes, behind a circuit breaker
+- **Backend** · Rust services reconciling an on-chain ledger with an external order book · reorg-safe indexer · leased job queues · distributed nonce allocation
+
+Before that, cross-chain routing and Bitcoin execution at Router Protocol, and
+concentrated liquidity at Dfyn.
 
 **[solidity-drills](https://github.com/RahulBane08/solidity-drills)** · one EVM pattern per folder, each small enough to read in a sitting
 
