@@ -14,8 +14,6 @@
 
 ---
 
-I like the seam where an on-chain ledger has to agree with something it does not control.
-
 ```
 now      Blinq            leveraged trading on prediction markets
 before   Router Protocol  cross-chain routing, Bitcoin execution
