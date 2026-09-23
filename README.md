@@ -16,7 +16,7 @@
 
 ### Building
 
-Leveraged trading on prediction markets, at [Blinq](https://rahulbane.vercel.app).
+Leveraged trading on prediction markets, at Blinq.
 
 - **Contracts** · upgradeable suites behind UUPS proxies · money-waterfall settlement · EIP-712 quorum multisig
 - **Vaults** · ERC-4626 shares · donation protection · utilisation-capped borrowing · bad-debt socialisation
