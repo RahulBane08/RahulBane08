@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260" role="img" aria-label="Rahul Bane, smart contract and protocol engineer">
+  <title>Rahul Bane · Smart contract &amp; protocol engineer</title>
+  <defs>
+    <pattern id="grain" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.1" fill="#1f1b16" opacity="0.07"/>
+      <circle cx="12" cy="9" r="0.8" fill="#1f1b16" opacity="0.05"/>
+    </pattern>
+    <clipPath id="card"><rect x="6" y="6" width="888" height="248" rx="26"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect x="6" y="6" width="888" height="248" fill="#fdf3e0"/>
+    <rect x="6" y="6" width="888" height="248" fill="url(#grain)"/>
+
+    <!-- doodles, drifting -->
+    <g opacity="0.55">
+      <g transform="translate(786 36)">
+        <animateTransform attributeName="transform" type="translate" dur="7s" repeatCount="indefinite"
+          values="786 36; 792 26; 780 42; 786 36" calcMode="spline" keyTimes="0;0.33;0.66;1"
+          keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+        <path d="M30 2c2.6 15 10 22 25 27-15 5-22.4 12-25 27-2.6-15-10-22-25-27 15-5 22.4-12 25-27z"
+              fill="#6fd3a8" stroke="#1f1b16" stroke-width="3.4" stroke-linejoin="round"/>
+      </g>
+      <g transform="translate(700 168)">
+        <animateTransform attributeName="transform" type="translate" dur="9s" repeatCount="indefinite"
+          values="700 168; 708 178; 694 160; 700 168" calcMode="spline" keyTimes="0;0.33;0.66;1"
+          keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+        <path d="M14 46c-8 0-14-6-14-13s6-13 14-12c2-8 9-13 18-13 10 0 18 7 19 17 7 1 12 6 12 12 0 6-5 9-11 9z"
+              fill="#ffc94a" stroke="#1f1b16" stroke-width="3.4" stroke-linejoin="round"/>
+      </g>
+      <g transform="translate(846 150)">
+        <animateTransform attributeName="transform" type="translate" dur="11s" repeatCount="indefinite"
+          values="846 150; 840 138; 852 160; 846 150" calcMode="spline" keyTimes="0;0.33;0.66;1"
+          keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+        <circle cx="22" cy="22" r="20" fill="#b98cf0" stroke="#1f1b16" stroke-width="3.4"/>
+        <circle cx="22" cy="22" r="9" fill="#fdf3e0" stroke="#1f1b16" stroke-width="3.4"/>
+      </g>
+      <path d="M636 60c10-22 20 14 30-6" fill="none" stroke="#ff6f59" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+    </g>
+
+    <!-- the record -->
+    <g transform="translate(62 62)">
+      <g transform="translate(68 68)">
+        <g>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
+          <circle r="66" fill="#17161b" stroke="#1f1b16" stroke-width="5"/>
+          <circle r="54" fill="none" stroke="#3a3842" stroke-width="2"/>
+          <circle r="45" fill="none" stroke="#3a3842" stroke-width="2"/>
+          <circle r="36" fill="none" stroke="#3a3842" stroke-width="2"/>
+          <circle r="22" fill="#ff6f59" stroke="#1f1b16" stroke-width="4"/>
+          <circle r="4.5" fill="#fdf3e0" stroke="#1f1b16" stroke-width="2.5"/>
+          <path d="M0 -62 A62 62 0 0 1 49 -36" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.22"/>
+        </g>
+      </g>
+      <!-- tonearm -->
+      <g transform="translate(120 4)">
+        <animateTransform attributeName="transform" type="rotate" dur="6s" repeatCount="indefinite"
+          values="-12; 14; -12" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+        <path d="M6 6 L-22 58" stroke="#1f1b16" stroke-width="5" stroke-linecap="round"/>
+        <circle cx="6" cy="6" r="7" fill="#1f1b16"/>
+        <circle cx="-22" cy="58" r="5.5" fill="#ffc94a" stroke="#1f1b16" stroke-width="3"/>
+      </g>
+    </g>
+
+    <!-- words -->
+    <text x="222" y="104" font-family="Trebuchet MS, Verdana, Geneva, sans-serif" font-size="54" font-weight="bold" fill="#1f1b16">Rahul Bane</text>
+    <path d="M224 118 C300 110, 360 126, 452 116" fill="none" stroke="#ff6f59" stroke-width="7" stroke-linecap="round">
+      <animate attributeName="d" dur="5s" repeatCount="indefinite"
+        values="M224 118 C300 110, 360 126, 452 116;
+                M224 117 C300 127, 360 109, 452 118;
+                M224 118 C300 110, 360 126, 452 116"/>
+    </path>
+    <text x="224" y="152" font-family="Trebuchet MS, Verdana, Geneva, sans-serif" font-size="22" font-weight="bold" fill="#5b5348">Smart contract &amp; protocol engineer</text>
+
+    <!-- stickers -->
+    <g font-family="Menlo, Consolas, monospace" font-size="14" font-weight="bold" fill="#1f1b16">
+      <g transform="translate(224 176)">
+        <rect width="92" height="32" rx="16" fill="#ff6f59" stroke="#1f1b16" stroke-width="3"/>
+        <text x="46" y="21" text-anchor="middle">Solidity</text>
+      </g>
+      <g transform="translate(324 176)">
+        <rect width="66" height="32" rx="16" fill="#ffc94a" stroke="#1f1b16" stroke-width="3"/>
+        <text x="33" y="21" text-anchor="middle">Rust</text>
+      </g>
+      <g transform="translate(398 176)">
+        <rect width="82" height="32" rx="16" fill="#6fd3a8" stroke="#1f1b16" stroke-width="3"/>
+        <text x="41" y="21" text-anchor="middle">Golang</text>
+      </g>
+      <g transform="translate(488 176)">
+        <rect width="110" height="32" rx="16" fill="#6bb7f2" stroke="#1f1b16" stroke-width="3"/>
+        <text x="55" y="21" text-anchor="middle">TypeScript</text>
+      </g>
+    </g>
+  </g>
+
+  <rect x="6" y="6" width="888" height="248" rx="26" fill="none" stroke="#1f1b16" stroke-width="5"/>
+</svg>
